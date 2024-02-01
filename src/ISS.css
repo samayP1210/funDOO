@@ -1,0 +1,28 @@
+.iss-container{
+    margin: auto;
+    width: 370px;
+    margin-top: 50px;
+}
+.satellite{
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    display: block;
+}
+.iss-container > p{
+    padding: 8px 12px;
+}
+.buttons{
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    font-size: medium;
+}
+.buttons > button:hover{
+    cursor: pointer;
+    font-size: medium;
+}
+.buttons > button > a{
+    text-decoration: none;
+    color: black;
+}

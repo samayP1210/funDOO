@@ -1,0 +1,11 @@
+.aopd-img {
+  width: 500px;
+  margin-top: 10px;
+}
+.aopd-container {
+  margin: auto;
+  width: min-content;
+}
+.aopd-container > div > p{
+    padding: 2px 4px;
+}

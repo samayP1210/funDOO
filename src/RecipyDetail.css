@@ -1,0 +1,25 @@
+.recipy-detail-container{
+    width: 600px;
+    margin: auto;
+    margin-top: 60px;
+}
+.recipy-detail-logo{
+    width: 350px;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.recipy-detail-innercontainer{
+    font-size: 13pt;
+    font-family: 'math';
+}
+.recipy-detail-innercontainer > p > div{
+    display: inline-block;
+}
+.recipy-detail-innercontainer > div >p > p{
+    display: inline-block;
+}
+.recipy-name{
+    color: #0d1b2a;
+    font-size: xx-large;
+}

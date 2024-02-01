@@ -1,0 +1,90 @@
+.recipies-container{
+    margin: auto;
+    width: 1000px;
+    margin-top: 50px;
+}
+.food-logo{
+    width: 200px;
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+.recipies-heading{
+    display: block;
+    width: fit-content;
+    margin: auto;
+    margin-top: 5px;
+    color: #0d1b2a;
+}
+.recipies-list{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 15px;
+}
+
+.recipy-card-container{
+    width: 47%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 8px;
+}
+.recipy-card-container:hover{
+    transform: scale(1.05);
+    box-shadow: rgba(125, 125, 139, 0.2) 0px 8px 30px 0px;
+}
+.recipy-logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 4px;
+    margin-left: 4px;
+    margin-top: 4px;
+}
+.recipy-details{
+    color: #0d1b2a;
+    width: 60%;
+    height: 100%;
+    display: inline-block;
+    top: auto;
+    margin-left: 8px;
+    margin-top: 5px;
+    vertical-align: top;
+    height: fit-content;
+}
+.recipy-button{
+    vertical-align: bottom;
+    float: right;
+    border: #3d405b solid 2px;
+    border-radius: 10px;
+    color: #3d405b;
+    font-weight: 700;
+    background-color: #b0c4b1;
+}
+.recipy-button:hover{
+    cursor: pointer;
+}
+
+.query-form > input{
+    width: 86%;
+    height: 40px;
+    border-radius: 0;
+    margin: 0%;
+    border: #3d405b solid 2px;
+    font-size: medium;
+    padding-left: 20px;
+    border-right: 0;
+}
+.query-form > button{
+    margin: 0;
+    border-radius: 0;
+    width: 10%;
+    font-size: medium;
+    height: 46px;
+    color: #3d405b;
+    font-weight: 700;
+    background-color: #b0c4b1;
+    border: #3d405b solid 2px;
+    vertical-align: top;
+}
+.query-form > button:hover{
+    cursor: pointer;
+}

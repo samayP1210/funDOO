@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import NavBar from "./NavBar.jsx";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Home.jsx";
+import AOPD from './AOPD.jsx';
+import Recipies from "./Recipies.jsx";
+import ISS from "./ISS.jsx";
+import Translation from "./Translation.jsx";
+import NotFound from "./NotFound.jsx";
+import RecipiesSearch from './RecipiesSearch.jsx';
+import RecipyDetail from './RecipyDetail.jsx';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter>
+        <NavBar />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/aopd" element={<AOPD />} />
+          <Route path="/iss" element={<ISS />} />
+          <Route path="/recipies" element={<Recipies />} />
+          <Route path="/recipies/:query" element={<RecipiesSearch />} />
+          <Route path="/recipies/view/:name" element={<RecipyDetail />} />
+          <Route path="/trans" element={<Translation />} />
+          <Route path="*" element={<NotFound msg = {'404 Page Not Found'}/>} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
-
-export default App;

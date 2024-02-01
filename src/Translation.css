@@ -1,0 +1,48 @@
+.trans-container {
+  width: 600px;
+  margin: auto;
+}
+.trans-logo {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: auto;
+}
+.trans-form{
+    padding-left: 14px;
+    margin-bottom: 10px;
+}
+.trans-form > input, select{
+    margin-right: 5px;
+}
+.trans-form > input{
+    width: 51%;
+}
+.trans-form > button:hover{
+    cursor: pointer;
+}
+.trans-form > input, select, button{
+    border-radius: 4px;
+    padding-top: 8px ;
+    padding-bottom: 8px ;
+    padding-left: 10px;
+    border: solid black 1px;
+}
+.trans-text {
+  padding-left: 14px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  /* border: solid red 2px; */
+}
+.trans-data {
+  border: solid #ba874d 2px;
+  border-radius: 4px;
+  display: inline-block;
+  width: 80%;
+  padding: 4px;
+  padding-left: 8px;
+  background-color: #faedcd;
+}
+.trans-data:hover {
+  cursor: pointer;
+}
